@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+}
+
+.intro-image{
+  background-attachment: fixed;
+  background-image: url("../img/image1.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content : center;
+}
+.intro-image__link a {
+  background-color: #60697065;
+ 
+  border: 2px solid #606970;  
+  display: inline-block;
+  font-size: 3rem;
+  text-decoration: none;
+text-transform: uppercase;
+padding: 2rem;
+color: #cdc5ba;
+transition: all 1s ease-in-out;
+}
+
+.intro-image__link a:hover{
+  transform: scale(1.2);
+}
+
+.intro-text{
+  background-color: #5e3c32;
+ 
+  color: #cdc5ba;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+       height: 250px;
+       padding: 0 15rem;
+}
+
+.intro-text__textbox h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+
+}
+.quanity-image{
+  background-attachment: fixed;
+  background-image: url("../img/image3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.gualiti-image__link a{
+    background-color: #6f869765;
+    
+      border: 2px solid #202122;
+      display: inline-block;
+      font-size: 3rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 2rem;
+      color: #fce8e8;
+      transition: all 1s ease-in-out;
+}
+.gualiti-image__link a:hover {
+  transform: scale(1.2);
+}
+.qualtiy-text{
+    background-color: #5e3c32;
+    
+      color: #e6dacb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 250px;
+      padding: 0 15rem;
+
+}
+.qualtiy-text__textbox h3{
+  font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quanity-image2 {
+  background-attachment: fixed;
+  background-image: url("../img/image2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gualiti-image__link2 a {
+  background-color: #6f869765;
+
+  border: 2px solid #202122;
+  display: inline-block;
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 2rem;
+  color: #fce8e8;
+  transition: all 1s ease-in-out;
+}
+
+.gualiti-image__link2 a:hover {
+  transform: scale(1.2);
+}
+
+.qualtiy-text2 {
+  background-color: #5e3c32;
+
+  color: #e6dacb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  padding: 0 15rem;
+
+}
+
+.qualtiy-text__textbox2 h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+
+.footer{
+height: 250px;
+background-color: #35241f;
+color: #e6dacb;
+font-size: 2rem;
+padding-top: 2rem;
+
+}
+
+.footer ul li{
+  display: inline-block;
+  margin: 1rem;
+}
+.footer ul li a{
+  color: #e6dacb;
+  text-decoration: none;
+}
+
+.footer ul li:hover{
+  transform: scale(1.5);
+}
+.footer ul li a:hover {
+  color: red;
+}
